@@ -9,5 +9,94 @@
 } */
 
 .button {
-  @apply inline-flex items-center space-x-1 bg-typography text-white px-3 py-2 rounded-lg;
+  @apply inline-flex items-center px-3 py-2 space-x-1 text-white rounded-lg bg-typography;
+}
+
+/* 
+  Course Description page
+*/
+.tutor-wrap {
+  @apply my-20;
+}
+
+.tutor-single-course-meta.tutor-lead-meta {
+  @apply hidden;
+}
+
+/*
+====================================================
+  Page
+====================================================
+*/
+.entry-title {
+  @apply mb-5 text-3xl;
+}
+
+/*
+====================================================
+  Dashboard
+====================================================
+*/
+/* profile */
+.tutor-dashboard-content h3 {
+  @apply text-2xl;
+}
+
+.tutor-dashboard-profile {
+  @apply flex flex-col mt-2 space-y-2;
+}
+
+.tutor-dashboard-profile .heading {
+  @apply font-bold text-typography;
+}
+
+#tutor-become-instructor-button {
+  @apply hidden;
+}
+
+/* checkout page */
+.input-text {
+  @apply p-4 border border-gray-400 rounded-md;
+}
+
+.woocommerce-billing-fields h3,
+.woocommerce-additional-fields h3 {
+  @apply text-xl;
+}
+
+#order_review_heading {
+  @apply mt-5 text-2xl;
+}
+
+p {
+  @apply text-base;
+}
+
+.payment_box.payment_method_softtech_bkash p:first-child {
+  @apply mb-3 text-xl;
+}
+
+.widefat {
+  @apply px-2 py-2 rounded-md;
+}
+
+#add_payment_method #payment ul.payment_methods,
+.woocommerce-cart #payment ul.payment_methods,
+.woocommerce-checkout #payment ul.payment_methods {
+  @apply bg-secondary;
+}
+
+.woocommerce #respond input#submit.alt,
+.woocommerce a.button.alt,
+.woocommerce button.button.alt,
+.woocommerce input.button.alt {
+  @apply bg-primary;
+}
+
+.tutor-login-wrap {
+  @apply shadow-none;
+}
+
+.tutor-dashboard-content h2 {
+  @apply text-2xl;
 }
