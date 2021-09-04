@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* .wrapper {
+  max-width: 1170px;
+  width: 95%;
+  @apply px-10 mx-auto;
+} */
+
+.button {
+  @apply inline-flex items-center space-x-1 bg-typography text-white px-3 py-2 rounded-lg;
+}
