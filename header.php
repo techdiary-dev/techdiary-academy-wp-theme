@@ -22,9 +22,8 @@ if (is_front_page()) {
 	<?php wp_body_open(); ?>
 	<div id="page" class="site">
 		<a class="skip-link screen-reader-text" href="#primary"><?php esc_html_e('Skip to content', 'techdiary-ac'); ?></a>
-
 		<div class="<?php echo $homePagenavbarClass; ?>">
-			<header class="flex items-center justify-between px-10 h-14">
+			<header class="relative z-50 flex items-center justify-between px-10 h-14">
 				<a href="<?php bloginfo('home'); ?>">
 					<img src="<?php echo get_template_directory_uri() . '/assets/images/logo-header.png' ?>" alt="techdiary Academy">
 				</a>
