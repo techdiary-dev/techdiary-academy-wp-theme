@@ -100,3 +100,11 @@ p {
 .tutor-dashboard-content h2 {
   @apply text-2xl;
 }
+
+.tutor-course-content-content {
+  @apply prose prose-2xl;
+}
+
+.course-content-title {
+  @apply hidden;
+}
