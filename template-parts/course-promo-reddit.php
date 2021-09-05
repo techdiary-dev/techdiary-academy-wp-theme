@@ -1,6 +1,6 @@
-<div class=" bg-[#FF3F18] md:h-96 flex justify-center" id="reddit-clone-course">
-    <div class="flex items-center space-x-4 md:mb-5">
-        <img src="<?php echo get_template_directory_uri() . '/assets/images/reddit.png' ?>" alt="">
+<div class=" bg-[#FF3F18] md:h-50vh flex justify-center" id="reddit-clone-course">
+    <div class="flex items-center h-40 space-x-4 md:mb-5">
+        <img class=" h-36" src="<?php echo get_template_directory_uri() . '/assets/images/reddit.png' ?>" />
         <div class="flex flex-col space-y-2 ">
             <h2 class="text-2xl font-semibold text-white uppercase md:text-5xl font-operator-mono">Reddit Clone</h2>
             <h3 class="text-xl font-semibold text-white uppercase md:text-3xl">project tutorial</h3>
@@ -9,10 +9,9 @@
 </div>
 
 
-<div class="md:w-[900px] mx-auto md:-mt-24">
-    <div class="md:aspect-w-16 md:aspect-h-9 aspect-w-1 aspect-h-1">
-        <iframe src="https://www.youtube.com/embed/OE140zsQ08I" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-        </iframe>
+<div class="md:w-[900px] mx-auto md:-mt-80">
+    <div>
+        <img src="<?php echo get_template_directory_uri() . '/assets/images/reddit-in-browser.png' ?>" alt="" srcset="">
     </div>
     <div class="flex justify-center px-10 mx-auto my-16">
         <div>
