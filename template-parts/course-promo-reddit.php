@@ -20,7 +20,7 @@
             </div>
             <div class="mb-5 ">
                 <p class="text-4xl text-typography font-operator-mono">Be Rockstar at API Development and Frontend with Laravel and Nuxt</p>
-                <a href="https://www.youtube.com/playlist?list=PL03GdZZs-POUp_42ipj_XThKsICQTkh5c" target="_blank" class="block my-10 text-4xl font-semibold capitalize hover:bg-secondary text-typography font-operator-mono outline-black">
+                <a href="https://go.techdiary.dev/laranuxt-ninja-yt" target="_blank" class="block my-10 text-4xl font-semibold capitalize hover:bg-secondary text-typography font-operator-mono outline-black">
                     First <span class=" text-primary">30 episodes</span> available for free
                 </a>
             </div>
